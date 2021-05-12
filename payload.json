@@ -1,0 +1,453 @@
+{
+    "DeviceClass": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952", 
+    "Devices": {
+        "Device": [
+            {
+                "DeviceName": "iLO 5", 
+                "FirmwareImages": [
+                    {
+                        "DelayAfterInstallSec": 120, 
+                        "DirectFlashOk": true, 
+                        "FileName": "ilo5_231.bin", 
+                        "InstallDurationSec": 240, 
+                        "Order": 1, 
+                        "PLDMImage": false, 
+                        "ResetRequired": false, 
+                        "Type": "Firmware", 
+                        "UefiFlashable": true
+                    }
+                ], 
+                "Target": "c0bcf2b9-1141-49af-aab8-c73791f0349c", 
+                "Version": "2.31"
+            }
+        ]
+    }, 
+    "PackageFormat": "FWPKG-v2", 
+    "Type": "Firmware", 
+    "UpdatableBy": [
+        "Bmc"
+    ], 
+    "package": {
+        "category": [
+            {
+                "key": "2900213", 
+                "languages": [
+                    {
+                        "lang": "fr", 
+                        "x_late": "Micrologiciel - Lights-Out Management"
+                    }, 
+                    {
+                        "lang": "en", 
+                        "x_late": "Firmware - Lights-Out Management"
+                    }, 
+                    {
+                        "lang": "cn", 
+                        "x_late": "固件 - Lights-Out Management"
+                    }, 
+                    {
+                        "lang": "tw", 
+                        "x_late": "韌體 ─ Lights─Out 管理"
+                    }, 
+                    {
+                        "lang": "de", 
+                        "x_late": "Firmware - LOM (Lights-Out Management)"
+                    }, 
+                    {
+                        "lang": "ko", 
+                        "x_late": "펌웨어 - Lights-Out 관리"
+                    }, 
+                    {
+                        "lang": "ja", 
+                        "x_late": "ファームウェア - Lights-Outマネジメント"
+                    }, 
+                    {
+                        "lang": "es", 
+                        "x_late": "Firmware - Administración de apagado eléctrico"
+                    }
+                ]
+            }
+        ], 
+        "description": [
+            {
+                "lang": "en", 
+                "x_late": "This component provides updated iLO firmware that can be installed directly on supported Operating Systems. This component can also be used to obtain the firmware image for updating via iLO user interface, utilities, or through the scripting interface. Additionally, this component can be used with the Smart Update Manager."
+            }
+        ], 
+        "divisions": [
+            {
+                "key": "6", 
+                "language": [
+                    {
+                        "lang": "tw", 
+                        "x_late": "伺服器"
+                    }, 
+                    {
+                        "lang": "en", 
+                        "x_late": "Server"
+                    }, 
+                    {
+                        "lang": "ko", 
+                        "x_late": "서버"
+                    }, 
+                    {
+                        "lang": "ja", 
+                        "x_late": "サーバ"
+                    }, 
+                    {
+                        "lang": "cn", 
+                        "x_late": "服务器"
+                    }
+                ]
+            }, 
+            {
+                "key": "64", 
+                "language": [
+                    {
+                        "lang": "tw", 
+                        "x_late": "Lights-Out"
+                    }, 
+                    {
+                        "lang": "en", 
+                        "x_late": "Lights Out"
+                    }
+                ]
+            }, 
+            {
+                "key": "68", 
+                "language": [
+                    {
+                        "lang": "en", 
+                        "x_late": "ServerOptions"
+                    }, 
+                    {
+                        "lang": "ko", 
+                        "x_late": "서버 옵션"
+                    }, 
+                    {
+                        "lang": "ja", 
+                        "x_late": "サーバ オプション"
+                    }, 
+                    {
+                        "lang": "cn", 
+                        "x_late": "服务器选项"
+                    }
+                ]
+            }
+        ], 
+        "files": {}, 
+        "id": {
+            "product": "2dc80c4ae4b943faadb938f8fc2b61d5", 
+            "version": "719b3c76e0eb47ab98073490d961e8e1"
+        }, 
+        "installation": {
+            "command": "", 
+            "command_params": "", 
+            "install_caps": {
+                "needuseracct": "no", 
+                "silent": "no"
+            }, 
+            "per_device_install_time_seconds": 0, 
+            "reboot_details": [
+                {
+                    "language": [
+                        {
+                            "lang": "tw", 
+                            "x_late": "安裝後無需重新啟動，更新就會生效，並維持硬體穩定。"
+                        }, 
+                        {
+                            "lang": "en", 
+                            "x_late": "Reboot is not required after installation for updates to take effect and hardware stability to be maintained."
+                        }, 
+                        {
+                            "lang": "ko", 
+                            "x_late": "설치 후 재부팅하지 않아도 업데이트가 적용되고 하드웨어 안정성이 유지됩니다."
+                        }, 
+                        {
+                            "lang": "ja", 
+                            "x_late": "アップデートの効果とハードウェアの安定を得るために、インストール後の再起動は必要ありません。"
+                        }, 
+                        {
+                            "lang": "cn", 
+                            "x_late": "安装之后无需重启即可使更新生效并可保持硬件稳定性。"
+                        }
+                    ]
+                }
+            ], 
+            "reboot_required": "no"
+        }, 
+        "installation_dependency": {}, 
+        "manufacturer_name": [
+            {
+                "lang": "en", 
+                "x_late": "Hewlett Packard Enterprise"
+            }, 
+            {
+                "lang": "cn", 
+                "x_late": "惠普企业"
+            }
+        ], 
+        "name": [
+            {
+                "lang": "en", 
+                "x_late": "Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5"
+            }
+        ], 
+        "prerequisites": {
+            "required_diskspace": {
+                "size_kb": "70000"
+            }, 
+            "supported_devices": [
+                {
+                    "dev": "3307", 
+                    "subdev": "00E4", 
+                    "subven": "1590", 
+                    "target_guid": "", 
+                    "type": "pci", 
+                    "ven": "103C"
+                }, 
+                {
+                    "dev": "3307", 
+                    "subdev": "0000", 
+                    "subven": "0000", 
+                    "target_guid": "", 
+                    "type": "pci", 
+                    "ven": "103C"
+                }, 
+                {
+                    "dev": "3306", 
+                    "subdev": "00E4", 
+                    "subven": "1590", 
+                    "target_guid": "", 
+                    "type": "pci", 
+                    "ven": "103C"
+                }, 
+                {
+                    "dev": "3306", 
+                    "subdev": "0000", 
+                    "subven": "0000", 
+                    "target_guid": "", 
+                    "type": "pci", 
+                    "ven": "103C"
+                }, 
+                {
+                    "id": "2f317b9d-c9e3-4d76-bff6-b9d0d085a952", 
+                    "target_guid": "", 
+                    "type": "other"
+                }
+            ], 
+            "supported_operating_systems": [
+                {
+                    "major": "6", 
+                    "minor": "7", 
+                    "name": "VMware vSphere 6.7", 
+                    "platform": "vmware_esx_server", 
+                    "sr": "OEM"
+                }, 
+                {
+                    "major": "6", 
+                    "minor": "5", 
+                    "name": "VMware vSphere 6.5", 
+                    "platform": "vmware_esx_server", 
+                    "sr": "OEM"
+                }, 
+                {
+                    "major": "6", 
+                    "minor": "0", 
+                    "name": "VMware vSphere 6.0", 
+                    "platform": "vmware_esx_server", 
+                    "sr": "OEM"
+                }, 
+                {
+                    "major": "0", 
+                    "minor": "0", 
+                    "name": "Cross Operating System", 
+                    "platform": "oi", 
+                    "sr": "OEM"
+                }
+            ], 
+            "supported_platforms": false
+        }, 
+        "release_date": "2020-09-30T00:00:00", 
+        "schema_version": "1.0.0.0", 
+        "supported_products": [
+            {
+                "key": "A41", 
+                "value": "HPE ProLiant DL325 Gen10 Server"
+            }, 
+            {
+                "key": "U45", 
+                "value": "HPE Proliant XL270d Gen10 Server"
+            }, 
+            {
+                "key": "U44", 
+                "value": "HPE ProLiant ML30 Gen10 Server"
+            }, 
+            {
+                "key": "U43", 
+                "value": "HPE ProLiant DL20 Gen10 Server"
+            }, 
+            {
+                "key": "U38", 
+                "value": "HPE ProLiant XL190r Gen10 Server"
+            }, 
+            {
+                "key": "U38", 
+                "value": "HPE ProLiant XL170r Gen10 Server"
+            }, 
+            {
+                "key": "U38", 
+                "value": "HPE Apollo r2200 Gen10 12 LFF Configure-to-order Chassis"
+            }, 
+            {
+                "key": "U38", 
+                "value": "HPE Apollo r2800 Gen10 24 SFF Flexible Configure-to-order Chassis"
+            }, 
+            {
+                "key": "U38", 
+                "value": "HPE Apollo r2600 Gen10 24 SFF Premium Configure-to-order Chassis"
+            }, 
+            {
+                "key": "A43", 
+                "value": "HPE ProLiant DL325 Gen10 Plus Server"
+            }, 
+            {
+                "key": "U40", 
+                "value": "HPE ProLiant XL450 Gen10 Server"
+            }, 
+            {
+                "key": "U41", 
+                "value": "HPE ProLiant ML350 Gen10 Server"
+            }, 
+            {
+                "key": "U32", 
+                "value": "HPE ProLiant DL360 Gen10 Server"
+            }, 
+            {
+                "key": "A42", 
+                "value": "HPE ProLiant DL385 Gen10 Plus Server"
+            }, 
+            {
+                "key": "", 
+                "value": "HPE ProLiant MicroServer Gen10 Server"
+            }, 
+            {
+                "key": "U40", 
+                "value": "HPE Apollo 4530 Gen10"
+            }, 
+            {
+                "key": "U51", 
+                "value": "HPE ProLiant XL920g Gen10 Plus Server"
+            }, 
+            {
+                "key": "U50", 
+                "value": "HPE Apollo 4200 Gen10 Plus Server"
+            }, 
+            {
+                "key": "A45", 
+                "value": "HPE XL925g Quad Gen10 Plus EPYC Server"
+            }, 
+            {
+                "key": "I44", 
+                "value": "HPE Synergy SY480 Gen10 Plus"
+            }, 
+            {
+                "key": "I41", 
+                "value": "HPE ProLiant BL460c Gen10 Server"
+            }, 
+            {
+                "key": "", 
+                "value": "HPE ProLiant ML150 Gen10 Server"
+            }, 
+            {
+                "key": "U33", 
+                "value": "HPE ProLiant ML110 Gen10 Server"
+            }, 
+            {
+                "key": "I43", 
+                "value": "HPE Synergy 660 Gen10 Compute Module"
+            }, 
+            {
+                "key": "I42", 
+                "value": "HPE Synergy 480 Gen10 Compute Module"
+            }, 
+            {
+                "key": "U37", 
+                "value": "HPE ProLiant XL230k Gen10 Server"
+            }, 
+            {
+                "key": "U39", 
+                "value": "HPE Apollo 4200 Gen10 Server"
+            }, 
+            {
+                "key": "U40", 
+                "value": "HPE Apollo 4510 System"
+            }, 
+            {
+                "key": "U36", 
+                "value": "HPE ProLiant DL120 Gen10 Server"
+            }, 
+            {
+                "key": "U34", 
+                "value": "HPE ProLiant DL580 Gen10 Server"
+            }, 
+            {
+                "key": "U30", 
+                "value": "HPE ProLiant DL380 Gen10 Server"
+            }, 
+            {
+                "key": "U34", 
+                "value": "HPE ProLiant DL560 Gen10 Server"
+            }, 
+            {
+                "key": "U47", 
+                "value": "HPE Apollo n2800 24SFF Gen10 Plus CTO Chassis"
+            }, 
+            {
+                "key": "U47", 
+                "value": "HPE Apollo n2600 24SFF Gen10 Plus CTO Chassis"
+            }, 
+            {
+                "key": "U47", 
+                "value": "HPE ProLiant XL290n Gen10 Plus Server"
+            }, 
+            {
+                "key": "A40", 
+                "value": "HPE ProLiant DL385 Gen10 Server\n"
+            }, 
+            {
+                "key": "A46", 
+                "value": "HPE ProLiant XL225n Gen10 Plus Server"
+            }, 
+            {
+                "key": "U46", 
+                "value": "HPE ProLiant DL380 Gen10 Plus Server"
+            }, 
+            {
+                "key": "U31", 
+                "value": "HPE ProLiant DL180 Gen10 Server"
+            }, 
+            {
+                "key": "U46", 
+                "value": "HPE ProLiant DL360 Gen10 Plus Server"
+            }, 
+            {
+                "key": "U48", 
+                "value": "HPE ProLiant MicroServer Gen10 Plus Server"
+            }, 
+            {
+                "key": "U39", 
+                "value": "HPE ProLiant XL420 Gen10 Server"
+            }, 
+            {
+                "key": "U31", 
+                "value": "HPE ProLiant DL160 Gen10 Server"
+            }
+        ], 
+        "sw_keys": [
+            {
+                "name": "RI11", 
+                "sw_key_expectedpath": "firmware:ilo5"
+            }
+        ]
+    }
+}

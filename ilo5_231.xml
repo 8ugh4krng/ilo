@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpq_package version="2.0.1.0">
+  <filename>ilo5_231.fwpkg</filename>
+  <divisions>
+    <division key="64">
+      <division_xlate lang="en">Lights Out</division_xlate>
+      <division_xlate lang="ja">Lights Out</division_xlate>
+    </division>
+    <division key="6">
+      <division_xlate lang="en">Server</division_xlate>
+      <division_xlate lang="ja">サーバ</division_xlate>
+    </division>
+    <division key="68">
+      <division_xlate lang="en">ServerOptions</division_xlate>
+      <division_xlate lang="ja">サーバ オプション</division_xlate>
+    </division>
+  </divisions>
+  <operating_systems>
+    <operating_system key="">
+      <operating_system_xlate>VMware vSphere 6.7</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>VMware vSphere 6.5</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>VMware vSphere 6.0</operating_system_xlate>
+    </operating_system>
+    <operating_system key="96">
+      <operating_system_xlate>Cross Operating System</operating_system_xlate>
+    </operating_system>
+  </operating_systems>
+  <products>
+    <product rom="I41"/>
+    <product rom="U34"/>
+    <product rom="U34"/>
+    <product rom="A40"/>
+    <product rom="U30"/>
+    <product rom="U32"/>
+    <product rom="A41"/>
+    <product rom="U36"/>
+    <product rom="U43"/>
+    <product rom="U41"/>
+    <product rom="U33"/>
+    <product rom="U44"/>
+    <product rom="U40"/>
+    <product rom="U39"/>
+    <product rom="U45"/>
+    <product rom="U37"/>
+    <product rom="U38"/>
+    <product rom="U38"/>
+    <product rom="U38"/>
+    <product rom="U38"/>
+    <product rom="U38"/>
+    <product rom="U40"/>
+    <product rom="U39"/>
+    <product rom="U31"/>
+    <product rom="U31"/>
+    <product rom="U40"/>
+    <product rom="A42"/>
+    <product rom="U46"/>
+    <product rom="U46"/>
+    <product rom="A43"/>
+    <product rom="U51"/>
+    <product rom="U47"/>
+    <product rom="A46"/>
+    <product rom="A45"/>
+    <product rom="U47"/>
+    <product rom="U47"/>
+    <product rom="U50"/>
+    <product rom="U48"/>
+    <product rom="I43"/>
+    <product rom="I44"/>
+    <product rom="I42"/>
+  </products>
+  <category key="2900213">
+    <category_xlate lang="en">Firmware - Lights-Out Management</category_xlate>
+    <category_xlate lang="ja">ファームウェア - Lights-Outマネジメント</category_xlate>
+  </category>
+  <id product="2dc80c4ae4b943faadb938f8fc2b61d5" version="719b3c76e0eb47ab98073490d961e8e1"/>
+  <name>
+    <name_xlate lang="en">Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5</name_xlate>
+    <name_xlate lang="ja">Online ROM Flash Firmware Package - HPE Integrated Lights-Out 5</name_xlate>
+  </name>
+  <alt_name>
+    <alt_name_xlate lang="en">HPE Integrated Lights-Out 5</alt_name_xlate>
+    <alt_name_xlate lang="ja">HPE Integrated Lights-Out 5</alt_name_xlate>
+  </alt_name>
+  <version value="2.31" revision="" type_of_change="1"/>
+  <manufacturer_name>
+    <manufacturer_name_xlate lang="en">Hewlett Packard Enterprise</manufacturer_name_xlate>
+    <manufacturer_name_xlate lang="ja">Hewlett Packard Enterprise</manufacturer_name_xlate>
+  </manufacturer_name>
+  <languages langlist="en">
+    <languages_xlate lang="en">English (US)</languages_xlate>
+    <languages_xlate lang="ja">英語（US）</languages_xlate>
+  </languages>
+  <release_date year="2020" month="10" day="19" hour="6" minute="15" second="34"/>
+  <description>
+    <description_xlate lang="en">
+<![CDATA[This component provides updated iLO firmware that can be installed directly on supported Operating Systems. This component can also be used to obtain the firmware image for updating via iLO user interface, utilities, or through the scripting interface. Additionally, this component can be used with the Smart Update Manager.]]>
+</description_xlate>
+    <description_xlate lang="ja">
+<![CDATA[This component provides updated iLO firmware that can be installed directly on supported Operating Systems. This component can also be used to obtain the firmware image for updating via iLO user interface, utilities, or through the scripting interface. Additionally, this component can be used with the Smart Update Manager.]]>
+</description_xlate>
+  </description>
+  <prerequisite_notes>
+    <prerequisite_notes_xlate lang="en">
+      <prerequisite_notes_xlate_part>
+<![CDATA[<p>Hewlett Packard Enterprise recommends the following or greater versions of iLO utilities<br />
+for best performance:</p>
+
+<ul>
+	<li>RESTful Interface Tool (iLOREST) 2.3</li>
+	<li>HPQLOCFG v5.2&nbsp;</li>
+	<li>Lights-Out XML Scripting Sample bundle 5.10.0</li>
+	<li>HPONCFG Windows 5.2.0</li>
+	<li>HPONCFG Linux 5.3.0</li>
+	<li>LOCFG v5.10.0</li>
+	<li>HPLOMIG 5.2.0</li>
+</ul>
+
+<p>&nbsp; NOTE: Updated utilities and system libraries are required to support the iLO&nbsp;<br />
+&nbsp; HighSecurity, FIPS, and CNSA security states. The HPONCFG Windows utility&nbsp;<br />
+&nbsp; does not currently support the CNSA security state.</p>
+]]>
+</prerequisite_notes_xlate_part>
+    </prerequisite_notes_xlate>
+    <prerequisite_notes_xlate lang="ja">
+      <prerequisite_notes_xlate_part>
+<![CDATA[<p>Hewlett Packard Enterprise recommends the following or greater versions of iLO utilities<br />
+for best performance:</p>
+
+<ul>
+	<li>RESTful Interface Tool (iLOREST) 2.3</li>
+	<li>HPQLOCFG v5.2&nbsp;</li>
+	<li>Lights-Out XML Scripting Sample bundle 5.10.0</li>
+	<li>HPONCFG Windows 5.2.0</li>
+	<li>HPONCFG Linux 5.3.0</li>
+	<li>LOCFG v5.10.0</li>
+	<li>HPLOMIG 5.2.0</li>
+</ul>
+
+<p>&nbsp; NOTE: Updated utilities and system libraries are required to support the iLO&nbsp;<br />
+&nbsp; HighSecurity, FIPS, and CNSA security states. The HPONCFG Windows utility&nbsp;<br />
+&nbsp; does not currently support the CNSA security state.</p>
+]]>
+</prerequisite_notes_xlate_part>
+    </prerequisite_notes_xlate>
+  </prerequisite_notes>
+  <installation_notes>
+    <installation_notes_xlate lang="en">
+      <installation_notes_xlate_part>
+<![CDATA[<p>To flash this firmware package, use the following iLOrest command. &nbsp;See&nbsp;<a href="http://www.hpe.com/servers/resttool" target="_blank">http://www.hpe.com/servers/resttool</a>&nbsp;to download the latest version of the iLOrest tool.</p>
+
+<p>localhost OS example:<br />
+<strong><em>ilorest flashfwpkg &lt;file_name.fwpkg&gt;&nbsp;</em></strong></p>
+
+<p>remote example:<br />
+<strong><em>ilorest flashfwpkg &lt;file_name.fwpkg&gt; --url &lt;iLO5_IP_Address&gt; -u &lt;iLO5_username&gt; -p &lt;iLO5_password&gt;</em></strong></p>
+
+<p>This firmware package can also be installed with the latest version of Smart Update Manager (SUM).</p>
+
+<p><strong>Supplemental updates</strong>&nbsp;for supported ProLiant servers and options can be done by using SUM, which is found on the&nbsp;<strong><a href="http://www.hpe.com/info/spp" target="_blank">Service Pack for ProLiant</a></strong>&nbsp;(SPP) ISO.</p>
+
+<ul>
+	<li>Place the Service Pack for ProLiant on a USB key using the&nbsp;<strong><a href="https://support.hpe.com/hpesc/public/home/driverHome?pmasr=0&amp;sp4ts.oid=1008862658" target="_blank">USB Key Creator Utility</a></strong>.</li>
+	<li>Place the desired&nbsp;firmware packages and components&nbsp;to be updated in the directory&nbsp;&quot;\packages&quot; on the USB key.</li>
+</ul>
+
+<p>Update the firmware and software&nbsp;in the usual manner.</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="ja">
+      <installation_notes_xlate_part>
+<![CDATA[<p>To flash this firmware package, use the following iLOrest command. &nbsp;See&nbsp;<a href="http://www.hpe.com/servers/resttool" target="_blank">http://www.hpe.com/servers/resttool</a>&nbsp;to download the latest version of the iLOrest tool.</p>
+
+<p>localhost OS example:<br />
+<strong><em>ilorest flashfwpkg &lt;file_name.fwpkg&gt;&nbsp;</em></strong></p>
+
+<p>remote example:<br />
+<strong><em>ilorest flashfwpkg &lt;file_name.fwpkg&gt; --url &lt;iLO5_IP_Address&gt; -u &lt;iLO5_username&gt; -p &lt;iLO5_password&gt;</em></strong></p>
+
+<p>This firmware package can also be installed with the latest version of Smart Update Manager (SUM).</p>
+
+<p><strong>Supplemental updates</strong>&nbsp;for supported ProLiant servers and options can be done by using SUM, which is found on the&nbsp;<strong><a href="http://www.hpe.com/info/spp" target="_blank">Service Pack for ProLiant</a></strong>&nbsp;(SPP) ISO.</p>
+
+<ul>
+	<li>Place the Service Pack for ProLiant on a USB key using the&nbsp;<strong><a href="https://support.hpe.com/hpesc/public/home/driverHome?pmasr=0&amp;sp4ts.oid=1008862658" target="_blank">USB Key Creator Utility</a></strong>.</li>
+	<li>Place the desired&nbsp;firmware packages and components&nbsp;to be updated in the directory&nbsp;&quot;\packages&quot; on the USB key.</li>
+</ul>
+
+<p>Update the firmware and software&nbsp;in the usual manner.</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+  </installation_notes>
+  <availability_notes/>
+  <documentation_notes>
+    <documentation_notes_xlate lang="en">
+      <documentation_notes_xlate_part>
+<![CDATA[<p>&nbsp;</p>
+
+<p>iLO&nbsp;5 User Guide and Lights-Out Scripting Guide can also be found by following the links at:<br />
+<br />
+<a href="http://www.hp.com/go/ilo">http://www.hpe.com/go/ilo</a><br />
+<br />
+Select your lights-out product, then support &amp; documents, then manuals.<br />
+&nbsp;</p>
+
+<ul>
+	<li>Check the online help for additional information about how to use features.&nbsp;<br />
+	Online help can be accessed from within the browser web pages by clicking the question mark in the upper right-hand corner of each page.</li>
+</ul>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="ja">
+      <documentation_notes_xlate_part>
+<![CDATA[<p>&nbsp;</p>
+
+<p>iLO&nbsp;5 User Guide and Lights-Out Scripting Guide can also be found by following the links at:<br />
+<br />
+<a href="http://www.hp.com/go/ilo">http://www.hpe.com/go/ilo</a><br />
+<br />
+Select your lights-out product, then support &amp; documents, then manuals.<br />
+&nbsp;</p>
+
+<ul>
+	<li>Check the online help for additional information about how to use features.&nbsp;<br />
+	Online help can be accessed from within the browser web pages by clicking the question mark in the upper right-hand corner of each page.</li>
+</ul>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+  </documentation_notes>
+  <revision_history>
+    <revision>
+      <version value="2.31" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Ability to read DIMM serial number using REST API</li>
+	<li>Enabled support for below GPUs:&nbsp;
+	<ul>
+		<li>NVIDIA A100 HGX x4 GPU Air Cooled Baseboard &nbsp;</li>
+		<li>NVIDIA A100 HGX x8 GPU Air FIO Baseboard &nbsp;</li>
+		<li>AMD Instinct MI100 PCIE Accelerator</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Ability to read DIMM serial number using REST API</li>
+	<li>Enabled support for below GPUs:&nbsp;
+	<ul>
+		<li>NVIDIA A100 HGX x4 GPU Air Cooled Baseboard &nbsp;</li>
+		<li>NVIDIA A100 HGX x8 GPU Air FIO Baseboard &nbsp;</li>
+		<li>AMD Instinct MI100 PCIE Accelerator</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>iLO may fail to detect NVMe controllers during power cycle.</li>
+	<li>Firmware version information may not displayed when the server has more than 8 GPUs</li>
+	<li>iLO may reset&nbsp;after FWPKG/PLDM update and coldboot</li>
+	<li>IE and SPS Firmware updates may fail on Gen10 Plus servers&nbsp;</li>
+	<li>Remote Syslog is made to adhere to RFC 5424 for Unstructured data format&nbsp;&nbsp; &nbsp;</li>
+	<li>On VSP performing &lsquo;cat&rsquo; or &lsquo;head&rsquo; or &#39;tail&#39; command on a file that contains some embedded NULL characters hangs the VSP or trims the file after the NULL character</li>
+	<li>Inaccurate Memory Sensor status reported in the vSphere web client for HPE ProLiant Gen10 and Gen10 Plus servers running VMware ESXi 6.5/6.7/7.0&nbsp;(Refer to <a href="https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-a00106468en_us">Customer Advisory</a>)</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>iLO may fail to detect NVMe controllers during power cycle.</li>
+	<li>Firmware version information may not displayed when the server has more than 8 GPUs</li>
+	<li>iLO may reset&nbsp;after FWPKG/PLDM update and coldboot</li>
+	<li>IE and SPS Firmware updates may fail on Gen10 Plus servers&nbsp;</li>
+	<li>Remote Syslog is made to adhere to RFC 5424 for Unstructured data format&nbsp;&nbsp; &nbsp;</li>
+	<li>On VSP performing &lsquo;cat&rsquo; or &lsquo;head&rsquo; or &#39;tail&#39; command on a file that contains some embedded NULL characters hangs the VSP or trims the file after the NULL character</li>
+	<li>Inaccurate Memory Sensor status reported in the vSphere web client for HPE ProLiant Gen10 and Gen10 Plus servers running VMware ESXi 6.5/6.7/7.0&nbsp;(Refer to <a href="https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-a00106468en_us">Customer Advisory</a>)</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.30" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>MCTP now addresses the iLO false alarm &quot;device/adapter not responsive&quot; issue.</li>
+	<li>Shutdown by virtual button press is included in the iLO enhanced reset cause.</li>
+	<li>Support for initiating the One-button secure erase process from the iLO web interface Lifecycle Management - Decommission page.</li>
+	<li>User account roles provide predefined privilege sets or allow you to define a custom set.</li>
+	<li>New HTML5 remote console modes: Standalone mode and New Window mode.</li>
+	<li>Virtual power button to power NVMe drives on and off. You can access this feature from the Physical Drive Details pane on the Storage Information page.</li>
+	<li>Configuration of Minimum Fan speed using iLO interfaces.</li>
+	<li>Users can view and modify the System thermal configuration settings using iLO interfaces..</li>
+	<li>PLDM firmware update support for NIC and storage option cards.</li>
+	<li>New REST alerts for Auto Heal and Safe Mode.</li>
+	<li>Enabled the iLO webserver to identify the source of request as Host over Virtual NIC.</li>
+	<li>Read support for RDE-enabled devices.</li>
+	<li>Support for flashing Universal FWPKG 2.0 images.</li>
+	<li>Power reading support for Edgeline 8000 systems.</li>
+	<li>Drive Indicator LED - &#39;Lit&#39; and &#39;Off&#39; state support for U.2/UBM1/UBM3 with NVMe direct attached storage.</li>
+	<li>When iLO is set to the factory default settings, Virtual NIC is disabled by default.</li>
+	<li>User can now configure iLO to avoid access over an HTTP connection</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>MCTP now addresses the iLO false alarm &quot;device/adapter not responsive&quot; issue.</li>
+	<li>Shutdown by virtual button press is included in the iLO enhanced reset cause.</li>
+	<li>Support for initiating the One-button secure erase process from the iLO web interface Lifecycle Management - Decommission page.</li>
+	<li>User account roles provide predefined privilege sets or allow you to define a custom set.</li>
+	<li>New HTML5 remote console modes: Standalone mode and New Window mode.</li>
+	<li>Virtual power button to power NVMe drives on and off. You can access this feature from the Physical Drive Details pane on the Storage Information page.</li>
+	<li>Configuration of Minimum Fan speed using iLO interfaces.</li>
+	<li>Users can view and modify the System thermal configuration settings using iLO interfaces..</li>
+	<li>PLDM firmware update support for NIC and storage option cards.</li>
+	<li>New REST alerts for Auto Heal and Safe Mode.</li>
+	<li>Enabled the iLO webserver to identify the source of request as Host over Virtual NIC.</li>
+	<li>Read support for RDE-enabled devices.</li>
+	<li>Support for flashing Universal FWPKG 2.0 images.</li>
+	<li>Power reading support for Edgeline 8000 systems.</li>
+	<li>Drive Indicator LED - &#39;Lit&#39; and &#39;Off&#39; state support for U.2/UBM1/UBM3 with NVMe direct attached storage.</li>
+	<li>When iLO is set to the factory default settings, Virtual NIC is disabled by default.</li>
+	<li>User can now configure iLO to avoid access over an HTTP connection</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Ripple20 vulnerabilities might affect the TCP/IP stack.</li>
+	<li>Synergy compute modules do not power up after One-button secure erase completes.</li>
+	<li>SPS firmware updates initiated through the iLO Firmware &amp; OS Software pages might fail.</li>
+	<li>C-Class blades do not complete FRU discovery.</li>
+	<li>During central connect Remote Support registration, an error message is not displayed when a &nbsp;required field is blank.</li>
+	<li>The Virtual NIC feature intermittently fails to provide an IP address to a host with SUSE Linux Enterprise Server 15.</li>
+	<li>Zero Sign In login fails when Kerberos authentication is configured for a large number of groups.</li>
+	<li>When iLO is set to the factory default settings on a fully populated NVDIMM configuration, iLO may lose CHIF communication.</li>
+	<li>DCi compliant Network Adapters under un-managed network configuration, reset to defaults on cold boot.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Ripple20 vulnerabilities might affect the TCP/IP stack.</li>
+	<li>Synergy compute modules do not power up after One-button secure erase completes.</li>
+	<li>SPS firmware updates initiated through the iLO Firmware &amp; OS Software pages might fail.</li>
+	<li>C-Class blades do not complete FRU discovery.</li>
+	<li>During central connect Remote Support registration, an error message is not displayed when a &nbsp;required field is blank.</li>
+	<li>The Virtual NIC feature intermittently fails to provide an IP address to a host with SUSE Linux Enterprise Server 15.</li>
+	<li>Zero Sign In login fails when Kerberos authentication is configured for a large number of groups.</li>
+	<li>When iLO is set to the factory default settings on a fully populated NVDIMM configuration, iLO may lose CHIF communication.</li>
+	<li>DCi compliant Network Adapters under un-managed network configuration, reset to defaults on cold boot.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.19" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>None</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>なし        </li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>The Direct attached NVMe drives may go missing in the iLO Web Page after random server power cycle.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>The Direct attached NVMe drives may go missing in the iLO Web Page after random server power cycle.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.18" revision="" type_of_change="2"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>None</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>なし        </li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Potential Ripple20 vulnerabilities affecting the TCP/IP stack</li>
+</ul>
+
+<p style="margin-left:40px">To learn more about Ripple Vulnerabilties please click <a href="https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-a00101763en_us">here</a>.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>TCP / IPスタックに影響を与える可能性のあるRipple20の脆弱性</li>
+</ul>
+
+<p style="margin-left:40px">Rippleの脆弱性について詳しくは、<a href="https://support.hpe.com/hpesc/public/docDisplay?docId=emr_na-a00101763en_us">ここ</a>をクリックしてください。</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.16" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Enabled support for Pensando Distributed Services Platform DSC-25 10/25Gb 2-port SFP28 Card.</li>
+	<li>Enabled support for Pensando Distributed Services Platform for HPE iLO Sideband Management Adaptive LOM Module.</li>
+	<li>Added Redfish property for setting the Server to remain Power OFF after thermal shutdown (Critical Temperature threshold exceeded)&nbsp;</li>
+	<li>Allow Power Regulator Mode management in Apollo platforms without an iLO Advanced license.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Pensando Distributed Services Platform DSC-25 10/25Gb 2ポートSFP28 Cardのサポートを有効にしました。</li>
+	<li>Pensando Distributed Services Platform for HPE iLOサイドバンド管理Adaptive LOMモジュールのサポートを有効にしました。</li>
+	<li>高温シャットダウン（クリティカル温度しきい値を超えた）後にサーバーが電源オフのままになるように設定するためのRedfishプロパティを追加しました </li>
+	<li>ApolloプラットフォームでiLO Advancedライセンスがなくてもパワーレギュレーターモード管理を許可します。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>HPE SimpliVity Accelerator disappear from the thermal sensor data after iLO firmware update.</li>
+	<li>Xilinx U50 cards getting over heat due to wrong thermal limits on iLO 5 v2.15</li>
+	<li>Unable to set HPE m750 Blade Server&#39;s Asset Tag through Redfish method.</li>
+	<li>iLO authentication with CM2 credential through Redfish fails frequently with more number of nodes installed.</li>
+	<li>Insight Online shows CPU2 Status as UNKNOWN for HPE ProLiant DL360 Gen10 Servers, while iLO GUI shows CPU2 status as OK.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>iLOファームウェアのアップデート後、HPE SimpliVityアクセラレータが温度センサーデータから消えます。</li>
+	<li>iLO 5 v2.15の温度制限が正しくないため、ザイリンクスU50カードが過熱状態になります</li>
+	<li>Redfishメソッドを使用してHPE m750ブレードサーバーの資産タグを設定できません。</li>
+	<li>インストールされているノードの数が多いほど、Redfishを介したCM2資格情報によるiLO認証が頻繁に失敗します。</li>
+	<li>Insight OnlineにはHPE ProLiant DL360 Gen10サーバーのCPU2ステータスがUNKNOWNとして表示されますが、iLO GUIにはCPU2ステータスがOKとして表示されます。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.15" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Users can now restore the last power state after a power outage on Synergy compute modules.</li>
+	<li>Apollo servers now allow you to use the iLO RESTful API to enable or disable power regulation mode (Global settings).</li>
+	<li>Apollo servers now allow you to switch between power regulation modes (iLO Standard license). User Configurable Mode&nbsp;is available only with an iLO Advanced license.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>ユーザーは、Synergyコンピューティングモジュールの停電後に、最後の電源状態を復元できるようになりました。</li>
+	<li>Apolloサーバーでは、iLO RESTful APIを使用して、パワーレギュレーターモード（グローバル設定）を有効または無効にできるようになりました。</li>
+	<li>Apolloサーバーでは、パワーレギュレーターモード（iLO標準ライセンス）を切り替えることができるようになりました。ユーザー設定可能モードは、iLO Advancedライセンスでのみ使用できます。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Some of the fans in Apollo XL225n Gen10 Plus Servers show a speed greater than 100% in the iLO web interface.</li>
+	<li>The HPE Synergy 3820C 10/20Gb CNA loses flexed sub-ports after a cold boot or E-fuse reset.</li>
+	<li>Updated the thermal parameters for the Xilinx U50 GPU.</li>
+	<li>iLO is temporarily unresponsive or iLO resets on HPE Gen10 servers and HPE Synergy Gen10 compute modules running HPE Infosight.</li>
+	<li>When you query for Software Inventory details, the RESTful Interface Tool 3.0 (part of SUM 8.5.5) does not fetch the&nbsp;&quot;Microchip-smartpqi&quot; driver installed on ESXi7.0.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Apollo XL225n Gen10 Plusサーバーの一部のファンは、iLO Webインターフェイスで100％を超える速度を示します。</li>
+	<li>HPE Synergy 3820C 10 / 20Gb CNAは、コールドブートまたはEヒューズのリセット後に、フレックスサブポートを失います。</li>
+	<li>ザイリンクスU50 GPUの熱パラメーターをアップデート。</li>
+	<li>HPE Infosightを実行しているHPE Gen10サーバーおよびHPE Synergy Gen10コンピュートモジュールで、iLOが一時的に応答しないか、iLOがリセットされます。</li>
+	<li>ソフトウェアインベントリの詳細をクエリすると、RESTfulインターフェイスツール3.0（SUM 8.5.5の一部）は、ESXi7.0にインストールされている「Microchip-smartpqi」ドライバーをフェッチしません。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.14" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Support new Accelerators:
+	<ul>
+		<li>Xilinx Alveo U250</li>
+		<li>Xilinx Alveo U50</li>
+	</ul>
+	</li>
+	<li>User can now define pre-caution threshold alert value for the inlet ambient sensor.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>新しいアクセラレーターをサポート：
+	<ul>
+		<li>Xilinx Alveo U250</li>
+		<li>Xilinx Alveo U50</li>
+	</ul>
+	</li>
+	<li>ユーザーは、インレット周囲センサーの事前予防しきい値アラート値を定義できるようになりました。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Fixed the issue where PMBUS power supply is being detected when a Flex Slot is&nbsp;installed.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Flexスロットを取り付けたときにPMBUS電源装置が検出される問題を修正しました。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.12" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>&nbsp;NVMe drives and open drive support, this includes additional robustness for device discovery and management. This helps to&nbsp;correct some iLO related timeout issues.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li> NVMeドライブとオープンドライブのサポート。これには、デバイスの検出と管理の堅牢性が含まれます。これは、iLO関連のタイムアウトの問題を修正するのに役立ちます。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>The Integrated Remote Console requires code to accommodate low power mode on AMD based system to work with the ROM on EU Lot 9 requirements</li>
+	<li>Incorrect IML messages occur when SAS/SATA drives are installed.</li>
+	<li>Spurious drive hot plug events occur when the server goes through a warm reset</li>
+	<li>In some cases, iLO tries to use an invalid SMBIOS handle from the ROM</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>統合リモートコンソールには、EU Lot 9要件のROMで動作するAMDベースのシステムの低電力モードに対応するコードが必要です</li>
+	<li>SAS/SATAドライブがインストールされていると、誤ったIMLメッセージが発生します。</li>
+	<li>サーバーがウォームリセットを実行すると、擬似ドライブホットプラグイベントが発生します</li>
+	<li>場合によっては、iLOはROMから無効なSMBIOSハンドルを使用しようとします</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.10" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This version adds support for the following features and enhancements:</p>
+
+<ul>
+	<li>Added a security log that lists security events recorded by the iLO firmware.</li>
+	<li>Enhanced Secure Start verification of CPLD on Gen10 Plus servers.</li>
+	<li>Updated menu path and feature names for the Performance Management features. The features that&nbsp;were accessed through the Intelligent System Tuning menu can now be accessed through the Performance&nbsp;menu.</li>
+	<li>Embedded remote support over IPv6.</li>
+	<li>New alert for recovery events.</li>
+	<li>SUM/SUT support on servers using the High Security, FIPS, or CNSA security states.</li>
+	<li>Support for staging firmware to update direct-attached hard drives through the UEFI System Utilities.</li>
+	<li>Ability to import and export drive bay mapping information.</li>
+	<li>Daily firmware flash limit, to protect iLO, ROM, and CPLD from repeated flashing attacks.</li>
+	<li>Performance data logging in a new Active Health System record.</li>
+	<li>Increased the certificate size limit from 4096 to 8096.</li>
+	<li>When iLO is set to the factory default settings, Virtual NIC is enabled by default.</li>
+	<li>The following System Diagnostics features are supported on Gen10 Plus servers:&nbsp;
+	<ul>
+		<li>Booting to safe mode&mdash;Allows you to boot the server with a safe minimum configuration.</li>
+		<li>Booting to intelligent diagnostics mode&mdash;Allows the system to automatically diagnose a boot failure&nbsp;during POST.</li>
+		<li>Restoring the default manufacturing settings&mdash;Resets all BIOS configuration settings to their&nbsp;default manufacturing values. This process deletes all UEFI nonvolatile variables, such as boot&nbsp;configuration, Secure Boot security keys (if Secure Boot is enabled), and configured date and time&nbsp;settings.</li>
+		<li>Restoring the default system settings&mdash;Resets all BIOS configuration settings to their default values&nbsp;and restarts the server. This option preserves some UEFI settings.</li>
+	</ul>
+	</li>
+	<li>Modified text of iLO time zone selections to match system ROM time zone selections. For backward&nbsp;compatibility, either previous time zone selection text or the new text can be used in APIs to set the&nbsp;time zone.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このバージョンは、以下の機能と改善を追加しました。</p>
+
+<ul>
+	<li>iLOファームウェアによって記録されたセキュリティイベントをリストするセキュリティログを追加しました。</li>
+	<li>Gen10 PlusサーバーでCPLDのセキュアスタート検証を強化しました。</li>
+	<li>パフォーマンス管理機能のメニューパスと機能名を更新しました。Intelligent System Tuningメニューからアクセスしていた機能に、パフォーマンスメニューからアクセスできるようになりました。</li>
+	<li>IPv6経由の組み込みリモートサポート。</li>
+	<li>リカバリイベントの新しいアラート。</li>
+	<li>高セキュリティ、FIPS、またはCNSAセキュリティ状態を使用するサーバーでのSUM/SUTサポート。</li>
+	<li>UEFIシステムユーティリティを使用して直接接続ハードドライブを更新するための、ファームウェアのステージングのサポート。</li>
+	<li>ドライブベイのマッピング情報をインポートおよびエクスポートする機能。</li>
+	<li>毎日のファームウェアフラッシュの制限により、執拗なフラッシュ攻撃からiLO、ROM、CPLDを保護します。</li>
+	<li>新しいアクティブヘルスシステムレコードにパフォーマンスデータのログを記録します。</li>
+	<li>証明書のサイズ制限を4096から8096に引き上げました。</li>
+	<li>iLOが工場出荷時のデフォルト設定になっているとき、仮想NICはデフォルトで有効です。</li>
+	<li>Gen10 Plusサーバーで次のシステム診断機能がサポートされています。 
+	<ul>
+		<li>セーフモードで起動 - 安全な最小構成でサーバーを起動できます。</li>
+		<li>インテリジェント診断モードで起動 - システムはPOST中に起動エラーを自動的に診断できます。</li>
+		<li>工場デフォルト設定を復元 - すべてのBIOS構成設定を工場デフォルト値にリセットします。このプロセスにより、ブート構成、セキュアブートのセキュリティキー（セキュアブートが有効な場合）、構成された日付時刻の設定など、すべてのUEFI不揮発性変数が削除されます。</li>
+		<li>システムデフォルト設定の復元 - すべてのBIOS構成設定をデフォルト値にリセットしてサーバーを再起動します。このオプションは一部のUEFI設定を保持します。</li>
+	</ul>
+	</li>
+	<li>システムROMのタイムゾーン選択に一致するよう、iLOタイムゾーン選択のテキストを修正しました。下位互換性のために、APIでタイムゾーンを設定するときは以前のタイムゾーン選択テキストと新しいテキストのどちらも使用できます。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<ul>
+	<li>The iLO clock incorrectly changes when iLO is reset due to a configuration change, firmware update,&nbsp;or a cause other than system power loss.</li>
+	<li>System GPUs might be listed without GPU version information.</li>
+	<li>Incorrect power consumption information is displayed in RIBCL output and the Active Health System Log.</li>
+	<li>If the domain name system is unavailable, an HPE ProLiant Gen10 Server might stop responding for up to&nbsp;three minutes during startup.</li>
+	<li>Fixed an issue where the iLO 5 webserver may becoming unresponsive when applying OV profile with certain models of NVME drives present.</li>
+</ul>
+
+<p>Security Fixes:&nbsp;</p>
+
+<ul>
+	<li>&nbsp; For information about the latest security bulletins and vulnerabilities addressed in this version,&nbsp;see the following website: <a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a>.</li>
+</ul>
+
+<p>Security best practices:</p>
+
+<ul>
+	<li>&nbsp; For the latest information about security best practices, see the HPE Integrated Lights-Out Security&nbsp;Technology Brief at the following website: <a href="http://www.hpe.com/support/ilo-docs">http://www.hpe.com/support/ilo-docs</a>.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されます。</p>
+
+<ul>
+	<li>構成の変更、ファームウェアアップデート、またはシステムの電力損失以外の原因によってiLOがリセットされると、iLOクロックが誤って変更されます。</li>
+	<li>GPUバージョン情報なしでシステムGPUが一覧表示されることがあります。</li>
+	<li>誤った電力消費情報がRIBCL出力とアクティブヘルスシステムログに表示されます。</li>
+	<li>ドメインネームシステムが利用できない場合に、HPE ProLiant Gen10サーバーが起動中に最大3分間応答しなくなることがあります。</li>
+	<li>NVMEドライブの特定のモデルが存在する状態でOVプロファイルを適用するとiLO 5 Webサーバーが応答しなくなることがある問題を修正しました。</li>
+</ul>
+
+<p>セキュリティの修正： </p>
+
+<ul>
+	<li>  最新のセキュリティ報告書と、このバージョンで解決された脆弱性については、次のWebサイトを参照してください：<a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a>。</li>
+</ul>
+
+<p>セキュリティに関するベストプラクティス</p>
+
+<ul>
+	<li>  セキュリティのベストプラクティスに関する最新情報は、次のWebサイトにあるHPE Integrated Lights-Out セキュリティテクノロジー概要を参照してください：<a href="http://www.hpe.com/support/ilo-docs">http://www.hpe.com/support/ilo-docs</a>。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.48" revision="a" type_of_change="0"/>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Implemented the set server info command for all the DCi supporting options in previous versions of iLO 5 which may reset NIC settings during iLO 5 update.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>iLO 5の旧バージョンのiLO 5でサポートしているすべてのDCiオプションに対して set server info コマンドを実装し、iLO 5のアップデート中にNICの設定をリセットする可能性があります。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.46" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>None</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>なし</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>Fixed potential problem of Gen10 Synergy server NIC port being down after complete Synergy frame power cycle.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>Synergyフレームの完全な電源再投入後にGen10 SynergyサーバーのNICポートがダウンする潜在的な問題を修正しました。</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.45" revision="" type_of_change="1"/>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>- Fixed problem introduced&nbsp;in iLO 5 v1.43&nbsp;which could cause an HTTP connection to be refused under high activity of REST calls.&nbsp;</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>-  iLO 5 v1.43でREST呼び出しが頻繁に行われていると、HTTP接続が拒否されることがある問題が修正されました。 </p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.43" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This version adds support for the following features and enhancements:</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;- Added VLAN tagging support on iLO Dedicated NIC for non-blades.</p>
+
+<p>- Modified the iLO auto-generated SNMP EngineID to not change upon iLO resets.</p>
+
+<p>&nbsp;- Modified Embedded Remote Support (eRS) service events to properly report Windows 2019.&nbsp;</p>
+
+<p>&nbsp;- Reduced the number of Redfish resource change events sent.&nbsp;&nbsp; Removed watching of fields that</p>
+
+<p>&nbsp;&nbsp; change frequently.</p>
+
+<p>- BIOS Admin password will NOT cause iLO to act as if Require Host Authentication is Enabled</p>
+
+<p>&nbsp;</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このバージョンは、以下の機能と改善を追加しました。</p>
+
+<p> </p>
+
+<p> - ブレード以外のiLO専用NICにVLANタギングサポートを追加</p>
+
+<p>- iLOがリセットされても変更されないように、iLOの自動生成SNMP EngineIDを修正しました。</p>
+
+<p> - Windows 2019を正しく報告するようにEmbedded Remote Support（eRS）サービスイベントを修正しました。 </p>
+
+<p> - 送信されるRedfishリソース変更イベントの数を削減。   頻繁に変わるフィールドの監視を</p>
+
+<p>   削除しました。</p>
+
+<p>-  BIOS管理者パスワードを指定しても、[ホスト認証が必要]が有効になっている場合と同様にiLOが機能することはありません</p>
+
+<p> </p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<p>- Fix for potential firmware use of system memory after free, which could lead to an OS exception or</p>
+
+<p>&nbsp;&nbsp;&nbsp;memory corruption under Linux or ESX when using hpilo driver.&nbsp; It was not an issue for Windows.</p>
+
+<p>&nbsp;- Fix so iLO 5 can connect to switch when both are set to 100 Full Duplex.</p>
+
+<p>&nbsp;- Fixed REST call so that &quot;ilorest -d serverlogs --selectlog=IML --clearlog rc 255&quot; does not fail when</p>
+
+<p>&nbsp;&nbsp; it should succeed.</p>
+
+<p>- Fixed problem with erroneously logging an IML event for &quot;exceeding power capacity threshold&quot; when</p>
+
+<p>&nbsp;&nbsp; it should not be logged.</p>
+
+<p>&nbsp;- Modified time zone string for &quot;Asia/Taipei&quot; to &quot;Beijing, Chongqing, Hong Kong, Urumqi, Taipei, Perth&quot;</p>
+
+<p>- Only send Remote Support type 1000 events for Critical IML events when they should be sent</p>
+
+<p>&nbsp;</p>
+
+<p>SECURITY FIXES:</p>
+
+<p>- HPESBHF03917</p>
+
+<p>&nbsp; For the latest security bulletins and vulnerabilities addressed in this version, please visit:</p>
+
+<p>&nbsp;&nbsp;<a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a></p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されます。</p>
+
+<p>- LinuxまたはESX上でhpiloドライバーを使用している場合、OSの例外またはメモリの破損につながる可能性があるシステムメモリ解放後の</p>
+
+<p>   ファームウェア使用の可能性を修正しました。  Windows上では問題ありません。</p>
+
+<p> - 両方が100フルデュプレックスに設定されている場合、iLO 5がスイッチに接続できるように修正してください。</p>
+
+<p> - "ilorest -d serverlogs --selectlog = IML --clearlog rc 255"が成功しても失敗しないように</p>
+
+<p>   REST呼び出しを修正しました。</p>
+
+<p>- ログに記録されるべきではないときに"電力容量しきい値を超えた"ために誤ってIMLイベント</p>
+
+<p>   ログ記録する問題を修正しました。</p>
+
+<p> - "アジア/台北"のタイムゾーン文字列を"北京、重慶、香港、ウルムチ、台北、パース"に変更</p>
+
+<p>- 重要なIMLイベントについてのみ、リモートサポートタイプ1000のイベントを送信してください。</p>
+
+<p> </p>
+
+<p>セキュリティの修正:</p>
+
+<p>- HPESBHF03917</p>
+
+<p>  最新のセキュリティ情報と、このバージョンで解決された脆弱性については、次のサイトを参照してください：</p>
+
+<p>  <a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a></p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.40" revision="a" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Ability to edit Maintenance Windows in Firmware &amp; OS Software section</li>
+	<li>Added Password Complexity feature to Security &gt; Access Settings</li>
+	<li>Enable/disable for overlay video showing Server Health Summary</li>
+	<li>Downgrade Policy - Specifies how iLO handles requests to downgrade any of the firmware types that you can update through iLO.&nbsp;</li>
+	<li>Virtual NIC functionality (disabled by default)</li>
+	<li>Enabled One-button Secure Erase via Intelligent Provisioning</li>
+	<li>LDAP/Directory settings configurable via Redfish</li>
+	<li>Security Dashboard - displays the status of important security features, the Overall Security Status for the system, and the current configuration for the Security State and Server Configuration Lock features.</li>
+	<li>Support for Gemalto SafeNet and SafeNet AT key managers</li>
+	<li>InfoSight Optimized AHS Download</li>
+	<li>Show NVMe wear level</li>
+	<li>Workload performance advisor: provides server tuning recommendations to improve server performance</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>ファームウェアのメンテナンスウィンドウを編集する機能& OSソフトウェアセクション</li>
+	<li>セキュリティにパスワードの複雑さ機能を追加> アクセス設定</li>
+	<li>サーバーヘルスサマリーを表示するオーバーレイビデオの有効/無効を切り替えます</li>
+	<li>ダウングレードポリシー - iLOから更新できるファームウェアタイプをダウングレードする要求をiLOがどのようにして処理するかを指定します。 </li>
+	<li>仮想NIC機能（デフォルトでは無効）</li>
+	<li>Intelligent Provisioningを介したOne-buttonセキュア消去を可能にしました</li>
+	<li>Redfishを使用して設定可能なLDAP/ディレクトリ設定</li>
+	<li>セキュリティダッシュボード - 重要なセキュリティ機能のステータス、システムの全体セキュリティステータス、セキュリティ状態およびサーバー構成ロック機能の現在の構成が表示されます。</li>
+	<li>Gemalto SafeNetおよびSafeNet ATキーマネージャーのサポート</li>
+	<li>InfoSightに最適化されたAHSのダウンロード</li>
+	<li>NVMeウェアレベルを表示します</li>
+	<li>ワークロードパフォーマンスアドバイザー：サーバーのパフォーマンスを向上させるためのサーバーのチューニングの推奨事項を提供します</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<ul>
+	<li>User interface fixes and improvements.</li>
+	<li>The text &ldquo;R&amp;D Server&rdquo; is incorrectly displayed in the iLO web interface navigation pane.</li>
+	<li>Fixed an issue where power supply status changes may be delayed.</li>
+	<li>Device Inventory could display a parse error under Internet Explorer 11 when certain PCI Cards are installed.</li>
+	<li>Improved shared network port out-of-band LOM resuscitation to reduce the scope and the frequency of system power-on/power-off during systems shutdown/reboot.</li>
+	<li>iLO communication issues in certain configurations where a server is set to Auto-Power-On after an AC power cycle.</li>
+</ul>
+
+<p>SECURITY FIXES:&nbsp;</p>
+
+<ul>
+	<li>HPESBHF03907</li>
+</ul>
+
+<p>For the latest security bulletins and vulnerabilities, please visit:&nbsp;<br />
+<a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a>&nbsp; Security best practices:</p>
+
+<p>Please refer to the HPE Integrated Lights-Out 5 Security Technology Brief for the latest on security best practices at:&nbsp;<br />
+<a href="http://www.hpe.com/support/ilo5-security-enn">http://www.hpe.com/support/ilo5-security-en</a></p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されます。</p>
+
+<ul>
+	<li>ユーザーインターフェイスの修正と改善。</li>
+	<li>iLO Webインターフェイスのナビゲーションペインで"R&Dサーバー"というテキストが正しく表示されない。</li>
+	<li>電源装置のステータス変更が遅れる可能性がある問題を修正しました。</li>
+	<li>特定のPCIカードが取り付けられていると、Internet Explorer 11のDevice Inventoryで解析エラーが発生する。</li>
+	<li>システムのシャットダウン/再起動中のシステムの電源オン/電源オフの適用範囲と回数を減らすため、共有ネットワークポートのアウトオブバンドLOMの復帰を向上させた。</li>
+	<li>サーバーがAC電源投入後に自動電源オンするように設定されている特定の設定でのiLO通信の問題。</li>
+</ul>
+
+<p>セキュリティの修正: </p>
+
+<ul>
+	<li>HPESBHF03907</li>
+</ul>
+
+<p>最新のセキュリティ報告書と脆弱性については、次のサイトを参照してください: <br />
+<a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a>  セキュリティに関するベストプラクティス：</p>
+
+<p>最新のセキュリティベストプラクティスについては、次のHPE Integrated Lights-Out 5セキュリティ技術概要を参照してください。 <br />
+<a href="http://www.hpe.com/support/ilo5-security-enn">http://www.hpe.com/support/ilo5-security-en</a></p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.40" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Ability to edit Maintenance Windows in Firmware &amp; OS Software section</li>
+	<li>Added Password Complexity feature to Security &gt; Access Settings</li>
+	<li>Enable/disable for overlay video showing Server Health Summary</li>
+	<li>Downgrade Policy - Specifies how iLO handles requests to downgrade any of the firmware types that you can update through iLO.&nbsp;</li>
+	<li>Virtual NIC functionality (disabled by default)</li>
+	<li>Enabled One-button Secure Erase via Intelligent Provisioning</li>
+	<li>LDAP/Directory settings configurable via Redfish</li>
+	<li>Security Dashboard - displays the status of important security features, the Overall Security Status for the system, and the current configuration for the Security State and Server Configuration Lock features.</li>
+	<li>Support for Gemalto SafeNet and SafeNet AT key managers</li>
+	<li>InfoSight Optimized AHS Download</li>
+	<li>Show NVMe wear level</li>
+	<li>Workload performance advisor: provides server tuning recommendations to improve server performance</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>ファームウェアのメンテナンスウィンドウを編集する機能& OSソフトウェアセクション</li>
+	<li>セキュリティにパスワードの複雑さ機能を追加> アクセス設定</li>
+	<li>サーバーヘルスサマリーを表示するオーバーレイビデオの有効/無効を切り替えます</li>
+	<li>ダウングレードポリシー - iLOから更新できるファームウェアタイプをダウングレードする要求をiLOがどのようにして処理するかを指定します。 </li>
+	<li>仮想NIC機能（デフォルトでは無効）</li>
+	<li>Intelligent Provisioningを介したOne-buttonセキュア消去を可能にしました</li>
+	<li>Redfishを使用して設定可能なLDAP/ディレクトリ設定</li>
+	<li>セキュリティダッシュボード - 重要なセキュリティ機能のステータス、システムの全体セキュリティステータス、セキュリティ状態およびサーバー構成ロック機能の現在の構成が表示されます。</li>
+	<li>Gemalto SafeNetおよびSafeNet ATキーマネージャーのサポート</li>
+	<li>InfoSightに最適化されたAHSのダウンロード</li>
+	<li>NVMeウェアレベルを表示します</li>
+	<li>ワークロードパフォーマンスアドバイザー：サーバーのパフォーマンスを向上させるためのサーバーのチューニングの推奨事項を提供します</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<ul>
+	<li>User interface fixes and improvements</li>
+	<li>Fixed an issue where power supply status changes may be delayed</li>
+	<li>Device Inventory could display a parse error under Internet Explorer 11 when certain PCI Cards are installed</li>
+</ul>
+
+<p>SECURITY FIXES:&nbsp;</p>
+
+<ul>
+	<li>HPESBHF03907</li>
+</ul>
+
+<p>For the latest security bulletins and vulnerabilities, please visit:&nbsp;<br />
+<a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a>&nbsp; Security best practices:</p>
+
+<p>Please refer to the HPE Integrated Lights-Out 5 Security Technology Brief for the latest on security best practices at:&nbsp;<br />
+<a href="http://www.hpe.com/support/ilo5-security-enn">http://www.hpe.com/support/ilo5-security-en</a></p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されます。</p>
+
+<ul>
+	<li>ユーザーインターフェイスの修正と改善</li>
+	<li>電源装置のステータス変更が遅れる可能性がある問題を修正しました</li>
+	<li>特定のPCIカードが取り付けられていると、Internet Explorer 11のDevice Inventoryで解析エラーが発生する</li>
+</ul>
+
+<p>セキュリティの修正: </p>
+
+<ul>
+	<li>HPESBHF03907</li>
+</ul>
+
+<p>最新のセキュリティ報告書と脆弱性については、次のサイトを参照してください: <br />
+<a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a>  セキュリティに関するベストプラクティス：</p>
+
+<p>最新のセキュリティベストプラクティスについては、次のHPE Integrated Lights-Out 5セキュリティ技術概要を参照してください。 <br />
+<a href="http://www.hpe.com/support/ilo5-security-enn">http://www.hpe.com/support/ilo5-security-en</a></p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.39" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Added Downgrade Policy setting to Security-&gt;Access Settings page.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>セキュリティ>アクセス設定のページにダウングレードポリシーの設定を追加しました。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Fixed issue where pressing UID button on Gen10 server can occasionally cause server to power off</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Gen10サーバーのUIDボタンを押すとまれにサーバーの電源がオフになる問題を修正しました</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.37" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This version adds support for the following features and enhancements:</p>
+
+<p>&nbsp;- Ability to backup and to restore a copy of the iLO configuration settings to/from iLO non-volatile memory via REST calls. &nbsp;<br />
+&nbsp;</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このバージョンは、以下の機能と改善を追加しました。</p>
+
+<p> -iLO構成設定のコピーをREST呼び出しを介してiLOの不揮発性メモリとの間でバックアップおよびリストアをする機能。 <br />
+ </p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<p>&nbsp;- Fix for &quot;VGA Port Detect Override&quot; to show video in all cases where monitors are installed.<br />
+&nbsp;- Fix for intermittent file upload failures.<br />
+&nbsp;- Fix for issues with Virtual Media in FIPS mode.<br />
+&nbsp;- Fix for issues with simultaneous use of virtual DVD and floppy in FIPS mode.<br />
+&nbsp;- Fix for USB floppy when used with ESXi 7 installation driver.<br />
+&nbsp;- Fixed potential problem where iLO could continue to interact with system memory after it has been released by hpilo module.<br />
+&nbsp;- Fix for erroneous reporting of disk drive overheating.<br />
+&nbsp;- Fix for intermittent iLO communication error on HPE Apollo 2000.&nbsp;<br />
+&nbsp;- Fix for potential RESTful API errors at boot with multiple NICs installed.<br />
+&nbsp;- Fix to add iLO 5 NIC information into anonymous XML response.<br />
+&nbsp;- Fixed false errors showing link lost on NICs when link never seen in IPMI.</p>
+
+<p>SECURITY FIXES:&nbsp;</p>
+
+<p>&nbsp;- HPESBHF03894 - HPE iLO5 Local Bypass of Security Restrictions in Firmware Update</p>
+
+<p>&nbsp;</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されます。</p>
+
+<p> -モニターがインストールされているすべてのケースでビデオを表示するように"VGAポート検出オーバーライド"を修正しました。<br />
+ -断続的なファイルのアップロードのエラーを修正しました。<br />
+ -FIPSモードで仮想メディアの問題を修正しました。<br />
+ -FIPSモードで仮想DVDとフロッピーの同時使用の問題を修正しました。<br />
+ - ESXi 7インストールドライバーと共に使用する場合、USBフロッピーを修正しました。<br />
+ -iLOがhpiloモジュールによって解放された後、システムメモリと相互作用を継続できる潜在的な問題を修正しました。<br />
+ -ディスクドライブの過熱の誤った報告を修正しました。<br />
+ -HPE Apollo 2000で断続的なiLO通信エラーを修正しました。 <br />
+ -複数のNICが取り付けられている場合の起動時の潜在的なRESTful APIエラーを修正しました。<br />
+ -匿名のXML応答にiLO 5 NIC情報を追加するように修正しました。<br />
+ -IPMIでリンクが見られなかったときに、NICでリンクが失われていることを示す誤ったエラーが修正されました。</p>
+
+<p>セキュリティの修正： </p>
+
+<p> -HPESBHF03894 - HPE iLO5ファームウェアアップデートにおけるセキュリティ制限のローカルバイパス</p>
+
+<p> </p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.35" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This version adds support for the following features and enhancements:</p>
+
+<ul>
+	<li>VGA Port Detect Override--Controls how devices connected to the system video port are detected. Dynamic detection protects the system from abnormal port voltages. This setting is enabled by default, and can be used for troubleshooting cases when there is no video output to displays, KVM concentrators, or active dongles.</li>
+	<li>DHCP Client ID override via iLO RESTful API.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このバージョンは、以下の機能と改善を追加しました。</p>
+
+<ul>
+	<li>VGAポート検出オーバーライド - システムのビデオポートに接続されているデバイスの検出方法を制御します。動的検出によってシステムが異常なポート電圧から保護されます。この設定はデフォルトで有効になっています。ディスプレイ、KVMコンセントレーター、またはアクティブなドングルへのビデオ出力がない場合のトラブルシューティングでこの設定を使用できます。</li>
+	<li>iLO RESTful APIを介したDHCPクライアントIDオーバーライド</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<ul>
+	<li>Fix for improper Smart Array error reported: Cache module board backup power failed.</li>
+	<li>Fixed where iLO may become unresponsive after ejecting virtual media.</li>
+</ul>
+
+<p>SECURITY FIXES:&nbsp;</p>
+
+<p>For the latest security bulletins and vulnerabilities, please visit:&nbsp;<br />
+<a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a> &nbsp;</p>
+
+<ul>
+	<li>Security Bulletin HPESBHF03866</li>
+</ul>
+
+<p>Security best practices:</p>
+
+<p>Please refer to the HPE Integrated Lights-Out 5 Security Technology Brief for the latest on security best practices at:&nbsp;<br />
+<a href="http://www.hpe.com/support/ilo5-security-enn">http://www.hpe.com/support/ilo5-security-enn</a></p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されます。</p>
+
+<ul>
+	<li>報告された不適切なSmartアレイエラーの修正。キャッシュモジュールボードのバックアップ電源が故障しました。</li>
+	<li>仮想メディアを取り出した後にiLOが応答しなくなる問題を修正しました。</li>
+</ul>
+
+<p>セキュリティの修正： </p>
+
+<p>最新のセキュリティ報告書と脆弱性については、次のサイトを参照してください： <br />
+<a href="https://support.hpe.com/hpesc/public/home">https://support.hpe.com/hpesc/public/home</a>  </p>
+
+<ul>
+	<li>セキュリティ情報 HPESBHF03866</li>
+</ul>
+
+<p>セキュリティに関するベストプラクティス</p>
+
+<p>最新のセキュリティベストプラクティスについては、次のHPE Integrated Lights-Out 5セキュリティ技術概要を参照してください。 <br />
+<a href="http://www.hpe.com/support/ilo5-security-enn">http://www.hpe.com/support/ilo5-security-enn</a></p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+  </revision_history>
+  <sw_keys>
+    <sw_keys_and>
+      <sw_key guid="" name="RI11">
+        <sw_key_expectedpath>firmware:ilo5</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+  </sw_keys>
+<payload>
+  <DeviceClass>2f317b9d-c9e3-4d76-bff6-b9d0d085a952</DeviceClass>
+  <Devices>
+    <Device>
+      <DeviceName>iLO 5</DeviceName>
+      <FirmwareImages>
+        <DelayAfterInstallSec>120</DelayAfterInstallSec>
+        <DirectFlashOk>True</DirectFlashOk>
+        <FileName>ilo5_231.bin</FileName>
+        <InstallDurationSec>240</InstallDurationSec>
+        <Order>1</Order>
+        <PLDMImage>False</PLDMImage>
+        <ResetRequired>False</ResetRequired>
+        <Type>Firmware</Type>
+        <UefiFlashable>True</UefiFlashable>
+      </FirmwareImages>
+      <Target>c0bcf2b9-1141-49af-aab8-c73791f0349c</Target>
+      <Version>2.31</Version>
+    </Device>
+  </Devices>
+  <PackageFormat>FWPKG-v2</PackageFormat>
+  <Type>Firmware</Type>
+  <UpdatableBy>Bmc</UpdatableBy>
+</payload>
+  <prerequisites>
+    <supported_operating_systems>
+      <supported_operating_system platform="oi" major="0" minor="0" sr="OEM" name="Cross Operating System"/>
+      <supported_operating_system platform="vmware_esx_server" major="6" minor="5" sr="OEM" name="VMware vSphere 6.5"/>
+      <supported_operating_system platform="vmware_esx_server" major="6" minor="0" sr="OEM" name="VMware vSphere 6.0"/>
+      <supported_operating_system platform="vmware_esx_server" major="6" minor="7" sr="OEM" name="VMware vSphere 6.7"/>
+    </supported_operating_systems>
+    <supported_devices>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3307</supported_device_data>
+          <supported_device_data name="subven">1590</supported_device_data>
+          <supported_device_data name="subdev">00E4</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3307</supported_device_data>
+          <supported_device_data name="subven">0000</supported_device_data>
+          <supported_device_data name="subdev">0000</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3306</supported_device_data>
+          <supported_device_data name="subven">1590</supported_device_data>
+          <supported_device_data name="subdev">00E4</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3306</supported_device_data>
+          <supported_device_data name="subven">0000</supported_device_data>
+          <supported_device_data name="subdev">0000</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="other">
+          <supported_device_data name="id">2f317b9d-c9e3-4d76-bff6-b9d0d085a952</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+    </supported_devices>
+    <required_diskspace size_kb="70000"/>
+  </prerequisites>
+  <installation>
+    <install>
+      <install_caps silent="no" needuseracct="no"/>
+      <command></command>
+      <command_params></command_params>
+      <reboot_required value="no"/>
+      <reboot_details value="No">
+        <reboot_details_xlate lang="en">Reboot is not required after installation for updates to take effect and hardware stability to be maintained.</reboot_details_xlate>
+        <reboot_details_xlate lang="ja">アップデートの効果とハードウェアの安定を得るために、インストール後の再起動は必要ありません。</reboot_details_xlate>
+      </reboot_details>
+      <per_device_install_time_seconds>0</per_device_install_time_seconds>
+    </install>
+    <uninstall>
+      <uninstall_caps silent="no"/>
+      <command></command>
+      <command_params></command_params>
+      <reboot_required value="no"/>
+    </uninstall>
+  </installation>
+</cpq_package>
